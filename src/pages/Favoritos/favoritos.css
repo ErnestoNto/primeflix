@@ -1,0 +1,30 @@
+.favoritos{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favoritos div{
+    display: flex;
+    align-items: center;
+}
+
+.favoritos div a{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #000;
+    background-color: #ccc;
+}
+
+.favoritos div button{
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 1rem;
+    background-color: #ccc;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
